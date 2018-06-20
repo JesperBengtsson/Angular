@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { ShowHideComponent } from './show-hide/show-hide.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShowHideComponent
   ],
   imports: [
     BrowserModule
