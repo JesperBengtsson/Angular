@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-reverse',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReverseComponent implements OnInit {
 
+  @Input() myString: String = "";
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  reverseFunction(string: String):String {
+    return string.split("").reverse().join("");
+  }
 }
