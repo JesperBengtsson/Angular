@@ -1,0 +1,9 @@
+.itemClass {
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.items {
+    padding: 10px;
+}
